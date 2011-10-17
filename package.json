@@ -1,0 +1,11 @@
+{
+  "name":"shhnode",
+  "author":"Ella Cochran <ellacochran@rocketmail.com>",
+  "version":"0.0.1",
+  "description":"(S)imple (H)TTP (H)andler for (Node) is node.js module that provides a simple framework for building powerful http servers",
+  "keywords": ["web", "server"],
+  "main": "index.js",
+  "dependecies": {
+    "async":"*"
+  }
+}
