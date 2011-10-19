@@ -1,3 +1,8 @@
+/*
+** © 2011 by Ella Cochran <ellacochran@rocketmail.com>
+** Licensed under the MIT OpenSource License
+** LICENSE should have been included in this package
+*/
 
 exports['dispatch'] = require('./lib/dispatch.js');
 exports['redirect'] = require('./lib/redirect.js');
