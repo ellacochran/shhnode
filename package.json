@@ -1,11 +1,20 @@
 {
   "name":"shhnode",
-  "author":"Ella Cochran <ellacochran@rocketmail.com>",
+  "author":{ "name":"Ella Cochran", "email":"ellacochran@rocketmail.com", "url":"https://github.com/ellacochran" },
   "version":"0.0.1",
   "description":"(S)imple (H)TTP (H)andler for (Node) is node.js module that provides a simple framework for building powerful http servers",
+  "homepage":"https://github.com/ellacochran/shhnode",
+  "bugs":{ "url":"https://github.com/ellacochran/shhnode/issues" },
   "keywords": ["web", "server"],
   "main": "index.js",
   "dependecies": {
     "async":"*"
-  }
+  },
+  "directories":{
+    "lib":"./lib",
+    "doc":"./docs",
+    "example":"./examples"
+  },
+  "repository":{ "type":"git", "url":"https://github.com/ellacochran/shhnode.git" },
+  "engines" : { "node" : ">=0.4.10" }
 }
